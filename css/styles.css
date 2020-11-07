@@ -1,4 +1,5 @@
 body {
+  margin: 30px auto;
   width: 960px;
   background-color: rgb(250, 250, 250);
 }
@@ -6,11 +7,28 @@ h1 {
   font-family: "Yellowtail", cursive;
   font-size: 40px;
 }
+
+.article-title {
+  transform: translateY(-20px);
+}
+
+.article-title h2 {
+  font-family: sans-serif;
+  font-size: 45px;
+}
+
+.article-title p {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
 header div {
   display: inline-block;
 }
 .social-wrapper {
   float: right;
+  transform: translateY(10px);
 }
 .header-title p {
   font-family: sans-serif;
@@ -23,4 +41,61 @@ header div {
   background-repeat: repeat;
   height: 10px;
   width: 960px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+#print {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#hero {
+  width: 100%;
+}
+
+#main-title-wrapper {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.main-section-paragraph {
+  margin-top: 25px;
+  text-align: left;
+  text-indent: 2rem;
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+.main-image {
+  width: 100%;
+  margin-top: 45px;
+}
+
+.note-wrapper img {
+  position: relative;
+  width: 100%;
+  height: 330px;
+}
+
+.note-child {
+  max-width: 800px;
+  margin: auto;
+  height: 10px;
+  /* position: absolute; 
+  top: 0px;
+  left: 0px; */
+}
+
+ul {
+  columns: 2;
+  font-size: 22px;
+  line-height: 1.5em;
+  transform: translate(35px, -300px);
 }
