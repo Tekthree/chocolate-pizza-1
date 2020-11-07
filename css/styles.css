@@ -99,3 +99,34 @@ ul {
   line-height: 1.5em;
   transform: translate(35px, -300px);
 }
+
+#red-button {
+  /* width: 75px;
+  height: 35px; */
+  background-color: brown;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 26px;
+  border: none;
+}
+
+#profile-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.bio {
+  font-size: 22px;
+}
+
+#vanessa-pic {
+  width: 120px;
+}
