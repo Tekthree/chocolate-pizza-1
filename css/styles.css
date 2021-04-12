@@ -101,13 +101,15 @@ ul {
 }
 
 #red-button {
-  /* width: 75px;
-  height: 35px; */
+  margin-top: 20px;
+  width: 155px;
+  height: 55px; 
   background-color: brown;
   color: white;
-  padding: 10px 20px 10px 20px;
-  font-size: 26px;
+  font-size: 20px;
+  line-height: 0;
   border: none;
+  padding: 0;
 }
 
 #profile-wrapper {
@@ -115,12 +117,11 @@ ul {
   flex-direction: row;
   align-content: center;
   justify-content: center;
-  align-items: baseline;
-}
+} 
 
 .name {
   font-weight: bold;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .bio {
@@ -129,4 +130,45 @@ ul {
 
 #vanessa-pic {
   width: 120px;
+}
+
+.grid-wrapper-profile{
+  width: 100%;
+  display: grid;
+  grid-template-columns: .5fr 3fr .5fr;
+  grid-gap: 30px;
+  
+}
+
+#name-bio{
+  display: block;
+
+}
+
+.name{
+  margin-bottom: 10px;
+}
+
+footer{
+  width: 100%;
+  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: rgb(124, 124, 124);
+}
+
+.line-grid{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr .2fr 4fr;
+  grid-gap: 10px;
+  align-items: center;
+  margin-bottom: 25px;
 }
